@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(179, 176, 12);
+  }
+  
+  header {
+    background-color: #13293f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  #chargingStationImages {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .chargingStationImage {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+  }
+  #userDetails{
+    text-align: center;
+
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, select, button {
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #01468f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #01468f;
+  }
+  

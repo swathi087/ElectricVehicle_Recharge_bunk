@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EV Recharge Bunks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Electric Vehicle Recharge Bunks</h1>
+  </header>
+
+  <section id="chargingStation">
+    <h2>Charging Station</h2>
+    <div id="chargingStationImages">
+      <img src="bunk1.jpg" alt="Charging Bunk 1" class="chargingStationImage">
+      <img src="bunk3.jpg" alt="Charging Bunk 3" class="chargingStationImage">
+      <!-- Add more bunk images as needed -->
+    </div>
+    <div id="chargingStatus">Charging Station Available</div>
+    <button id="startCharging">Start Charging</button>
+  </section>
+
+  <section id="userDetails">
+    <h2>User Details</h2>
+    <form id="userForm">
+      <label for="userName">Name:</label>
+      <input type="text" id="userName" required>
+
+      <label for="vehicleType">Vehicle Type:</label>
+      <select id="vehicleType" required>
+        <option value="electricCar">Electric Car</option>
+        <option value="electricBike">Electric Bike</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
